@@ -1,0 +1,13 @@
+.om-nav-content-vertical {
+  ul {
+    padding: 20px;
+  }
+  @extend .nav, .flex-column ;
+  a {
+    color: $white;
+    &:hover {
+      background-color: $white;
+      color: $gray-900;
+    }
+  }
+}

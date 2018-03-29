@@ -1,0 +1,64 @@
+.mce-tnc_scroll{
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 90%;
+}
+/* Options Page */
+.tnc-pdf-column-left{
+	width: 720px;
+	max-width: 100%;
+	margin-right: 30px;
+	float: left;
+}
+.tnc-pdf-column-right{
+	width: 350px;
+	float: left;
+	max-width: 100%;
+}
+.tnc-upload-container{
+	text-align: center;
+}
+.tnc-upload-container{
+	margin-bottom: 50px;
+}
+.tnc_pdf_upload{
+	height: 50px!important;
+	padding-top: 10px!important;
+	padding-left: 50px!important;
+	padding-right: 50px!important;
+}
+.uploaded_file_url{
+	width: 97%;
+	padding: 10px;
+	max-width: 100%;
+}
+.copy_btn{
+    height: 40px!important;
+    padding: 7px 15px!important;
+    margin-top: 1px;
+}
+#poststuff h3 {
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0 10px 10px 10px;
+}
+.addon-image{
+	display: block;
+	margin: 0 auto;
+}
+.addon-buy-btn{
+	display: block!important;
+    margin: 15px auto!important;
+    width: 190px;
+}
+
+.tnc-3col{
+	width: 100%;
+	max-width: 230px;
+	float: left;
+}
+.tnc-3col select{
+	width: 95%;
+}
+.tnc-view-link{
+	width: 100%;
+}

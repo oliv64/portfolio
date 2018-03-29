@@ -1,0 +1,23 @@
+.om-header {
+  &-nav {
+    &-logo {
+      span {
+        display: block;
+        text-align: center;
+        font-size: 1.8em;
+        color:$white;
+        padding: 10px, 5px;
+        font-family:cursive;
+
+      }
+      img {
+        max-width: 100px;
+        @extend .rounded-circle;
+        display: block;
+        margin: auto;
+
+      }
+    }
+  }
+
+}

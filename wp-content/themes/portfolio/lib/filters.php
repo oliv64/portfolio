@@ -52,7 +52,7 @@ add_filter( 'image_resize_dimensions', 'alx_thumbnail_upscale', 10, 6 );
 add_image_size( 'post-thumb', 312, 200, true );
 //voir pdf a ajouter
 function pdfshortcode($url) {
-  echo do_shortcode('[tnc-pdf-viewer-iframe file="'. $url .'"
-width="800" height="750" download="true" print="true" fullscreen="true"
-share="false" zoom="true" open="true" logo="false" pagenav="true" find="true"]');
+  
+$pdf = do_shortcode('[tnc-pdf-viewer-iframe file="'. $url .'" width="100%" height="1000px" download="true" print="true" fullscreen="false" share="true" zoom="true" open="true" pagenav="true" logo="true" find="true" current_view="true" rotate="true" handtool="true" doc_prop="true" toggle_menu="true" language="fr" page="" default_zoom="auto" pagemode=""]');
+echo $pdf;
 }

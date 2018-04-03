@@ -44,15 +44,15 @@ Voir le Pdf
 <div class="modal-dialog" role="document">
 <div class="modal-content">
 	<div class="modal-header">
-		<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+		<h5 class="modal-title" id="exampleModalLabel"><?= the_title(); ?></h5>
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
 		</button>
 	</div>
 	<div class="modal-body">
-		<?php if (is_singular || is_category): ?>
-		<?php pdfshortcode(the_field('ajouter_un_pdf')); ?>
-			<?php endif; ?>
+		<?php $url = get_field('ajouter_un_pdf')["url"]; ?>
+		<a class="fullscreen-mode" href="<?= $url; ?>" target="_blank">Plein Ecran</a>
+		<?php pdfshortcode($url); ?>
 	</div>
 </div>
 </div>
